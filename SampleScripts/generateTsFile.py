@@ -33,7 +33,7 @@ for groups in myGroupXMLRoot:
                                Height = itemComp.find('Height').text
                                NumberLines = itemComp.find('NumberLines').text
                                FontSize = itemComp.find('FontSize').text
-                               extracomment='width='+width+' Height='+Height+' No of lines='+NumberLines+' FontSize='+FontSize
+                               extracomment='width='+width+', Height='+Height+', No of lines='+NumberLines+', FontSize='+FontSize
 
 
 
