@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ComponentRoot name="ComponentLayout">
+	<Component name="RSBBStartEndCaseButton" style="StartEndCaseButtonStyle">
+		<Size name = "Default">
+			<Item name = "Group">
+				<Width>85.5</Width>
+				<Height>50</Height>
+				<Radius>2</Radius>
+			</Item>
+			<Item name="ButtonText" type = "text">
+				<Width>85.5</Width>
+				<Height>50</Height>
+				<LeftMargin>0</LeftMargin>
+				<TopMargin>0</TopMargin>
+				<NumberLines>1</NumberLines>
+				<FontSize>10</FontSize>
+				<FontType>Normal</FontType>
+			</Item>
+		</Size>
+    </Component>
+   <Component name="RSBBButton" style = "ActionButton">
+		<Size name = "Default">
+			<Item name = "Group">
+				<Width>85.5</Width>
+				<Height>50</Height>
+				<Radius>2</Radius>
+			</Item>
+			<Item name="ButtonText" type = "text">
+				<Width>85.5</Width>
+				<Height>50</Height>
+				<LeftMargin>0</LeftMargin>
+				<TopMargin>0</TopMargin>
+				<NumberLines>1</NumberLines>
+				<FontSize>10</FontSize>
+				<FontType>Normal</FontType>
+			</Item>
+		</Size>
+	   <Size name = "Large">
+			<Item name = "Group">
+				<Width>85.5</Width>
+				<Height>50</Height>
+				<Radius>2</Radius>
+			</Item>
+			<Item name="ButtonText" type = "text">
+				<Width>105.5</Width>
+				<Height>55</Height>
+				<LeftMargin>0</LeftMargin>
+				<TopMargin>0</TopMargin>
+				<NumberLines>3</NumberLines>
+				<FontSize>20</FontSize>
+				<FontType>Normal</FontType>
+			</Item>
+		</Size>
+   </Component> 
+   <Component name="EditableQuickKey" style = "VentQuickKey">
+	<Size name = "Default">
+      <Item name ="Group">
+         <Width>90</Width>
+		 <Height>96</Height>
+      </Item>
+      <Item name="Label" type = "Text" >
+		 <Width>17</Width>
+		 <Height>18</Height>
+         <FontSize>14</FontSize>
+		 <LeftMargin>36</LeftMargin>
+		 <TopMargin>8</TopMargin>
+      </Item>
+	  <Item name="Value" type = "Text" >
+		 <Width>88</Width>
+		 <Height>36</Height>
+         <FontSize>22</FontSize>
+		 <LeftMargin>1</LeftMargin>
+		 <TopMargin>27</TopMargin>
+      </Item>
+	  <Item name="Unit" type = "Text" >
+		 <Width>85</Width>
+		 <Height>20</Height>
+         <FontSize>14</FontSize>
+		 <LeftMargin>2</LeftMargin>
+		 <TopMargin>72</TopMargin>
+      </Item>
+	</Size>
+	<Size name = "Large">
+      <Item name ="Group">
+         <Width>90</Width>
+		 <height>96</height>
+      </Item>
+      <Item name="Label" type = "Text">
+		 <width>50</width>
+		 <height>18</height>
+         <FontSize>16</FontSize>
+		 <LeftMargin>0</LeftMargin>
+		 <TopMargin>0</TopMargin>
+      </Item>
+	  <Item name="Value" type = "Text">
+		 <width>50</width>
+		 <height>40</height>
+         <FontSize>25</FontSize>
+		 <LeftMargin>10</LeftMargin>
+		 <TopMargin>21</TopMargin>
+      </Item>
+	  <Item name="Unit" type = "Text">
+		 <width>50</width>
+		 <height>20</height>
+         <FontSize>14</FontSize>
+		 <LeftMargin>5</LeftMargin>
+		 <TopMargin>60</TopMargin>
+      </Item>
+	</Size>
+   </Component>
+</ComponentRoot>

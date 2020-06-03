@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GroupRoot type="GroupLayout">
+   <Group name="RSBBGroup" styleType="GroupBackgrounds" MainGroupContainer = "RSBBArea">
+      <Item name="Group" componentName = "None">
+         <width>95</width>
+         <Height>637</Height>
+		 <LeftMargin>0</LeftMargin>
+		 <TopMargin>0</TopMargin>
+      </Item>
+         <Item name="StartEndCaseButton" componentName = "RSBBStartEndCaseButton">
+		 <String name = "ButtonText">
+			 <STRINGID1>UISTR_LABEL_START_CASE</STRINGID1>
+			 <STRINGID2>UISTR_LABEL_END_CASE</STRINGID2> 
+		 </String>
+         </Item>
+         <Item name="Audiopause" componentName = "RSBBButton">
+		  <String name = "ButtonText">
+			 <STRINGID1>UISTR_LABEL_AUDIO_PAUSE_ON</STRINGID1>
+			 <STRINGID2>UISTR_LABEL_AUDIO_PAUSE_OFF</STRINGID2>
+		   </String>
+         </Item>
+         <Item name="Timer" componentName = "RSBBButton">
+		    <String name = "ButtonText">
+				<STRINGID1>UISTR_LABEL_TIMER_ON</STRINGID1>
+				<STRINGID2>UISTR_LABEL_TIMER_OFF</STRINGID2>
+			</String>
+         </Item>
+   </Group>  
+</GroupRoot>
